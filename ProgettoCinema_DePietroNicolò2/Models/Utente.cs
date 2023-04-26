@@ -8,7 +8,7 @@ namespace ProgettoCinema_DePietroNicolò2.Models
         public int IdUtente { get; set; }
         [Required]
 
-        public string Nome { get; set; } = null!;
+        public string Nome { get; set; }
 
         public string Cognome { get; set; } = null!;
 

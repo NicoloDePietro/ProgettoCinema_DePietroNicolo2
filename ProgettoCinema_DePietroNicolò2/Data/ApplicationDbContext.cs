@@ -11,4 +11,9 @@ public class ApplicationDbContext : DbContext
     }
 
     public DbSet<Utente> Utenti { get; set; } = null!;
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+    }
 }
